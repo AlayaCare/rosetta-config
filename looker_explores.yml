@@ -1,0 +1,19 @@
+looker_explores:
+  -
+    name: client_tier_5
+    label: Client
+  -
+    name: employee_tier_5
+    label: Employee
+  -
+    name: service_code
+    label: Service Code
+  -
+    name: service_tier_5
+    label: Service
+  -
+    name: visit_tier_5
+    label: Visit
+  -
+    name: invoice_item_tier_5
+    label: Invoice Item
