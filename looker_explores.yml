@@ -3,35 +3,28 @@ looker_explores:
     name: client
     view: client_tier_5
     label: Client
-    has_specific: True
   -
     name: employee
     view: employee_tier_5
     label: Employee
-    has_specific: True
   -
     name: service_code
     label: Service Code
-    has_specific: False
   -
     name: service
     view: service_tier_5
     label: Service
-    has_specific: True
   -
     name: visit
     view: visit_tier_5
     label: Visit
-    has_specific: False
   -
     name: invoice
     view: invoice_tier_5
     label: Invoice
-    has_specific: False
 
   -
     name: invoice_item
     view: invoice_item_tier_5
     label: Invoice Item
-    has_specific: False
 
