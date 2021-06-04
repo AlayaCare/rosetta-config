@@ -1,0 +1,32 @@
+{
+    "looker_explores": {
+        "client": {
+            "view": "client_tier_5",
+            "label": "Client"
+	},
+	"employee": {
+            "view": "employee_tier_5",
+             "label": "Employee"
+	},
+	"service_code": {
+             "label": "Service Code"
+	},
+        "service": {
+            "view": "service_tier_5",
+             "label": "Service"
+	},
+        "visit": {
+            "view": "visit_tier_5",
+            "label": "Visit"
+	},
+        "invoice": {
+            "view": "invoice_tier_5",
+	    "label": "Invoice"
+	},
+        "invoice_item": {
+            "view": "invoice_item_tier_5",
+            "label": "Invoice Item"
+	}
+    }
+}
+
