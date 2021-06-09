@@ -19,10 +19,6 @@
             "view": "visit_tier_5",
             "label": "Visit"
 	},
-        "invoice": {
-            "view": "invoice_tier_5",
-	    "label": "Invoice"
-	},
         "invoice_item": {
             "view": "invoice_item_tier_5",
             "label": "Invoice Item"
