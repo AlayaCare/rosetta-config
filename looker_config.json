@@ -8,9 +8,6 @@
             "view": "employee_tier_5",
              "label": "Employee"
 	},
-	"service_code": {
-             "label": "Service Code"
-	},
         "service": {
             "view": "service_tier_5",
              "label": "Service"
