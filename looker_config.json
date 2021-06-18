@@ -4,14 +4,20 @@
             "view": "client_tier_5",
             "label": "Client"
 	},
+	"do_not_send": {
+            "label": "Do Not Send"
+	},
 	"employee": {
             "view": "employee_tier_5",
-             "label": "Employee"
+            "label": "Employee"
 	},
         "service": {
             "view": "service_tier_5",
-             "label": "Service"
+            "label": "Service"
 	},
+	"service_code": {
+            "label": "Service Code"
+        },
         "visit": {
             "view": "visit_tier_5",
             "label": "Visit"
