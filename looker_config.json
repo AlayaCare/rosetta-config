@@ -5,6 +5,7 @@
             "label": "Client"
 	},
 	"do_not_send": {
+            "view": "do_not_send_tier_5",
             "label": "Do Not Send"
 	},
 	"employee": {
