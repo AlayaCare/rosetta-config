@@ -1,32 +1,35 @@
 {
-    "looker_explores": {
-        "client": {
-            "view": "client_tier_5",
-            "label": "Client"
-	},
-	"do_not_send": {
-            "view": "do_not_send_tier_5",
-            "label": "Do Not Send"
-	},
-	"employee": {
-            "view": "employee_tier_5",
-            "label": "Employee"
-	},
-        "service": {
-            "view": "service_tier_5",
-            "label": "Service"
-	},
-	"service_code": {
-            "label": "Service Code"
-        },
-        "visit": {
-            "view": "visit_tier_5",
-            "label": "Visit"
-	},
-        "invoice_item": {
-            "view": "invoice_item_tier_5",
-            "label": "Invoice Item"
-	}
+  "looker_explores": {
+    "client": {
+      "view": "client_tier_5",
+      "label": "Client"
+    },
+    "do_not_send": {
+      "view": "do_not_send_tier_5",
+      "label": "Do Not Send"
+    },
+    "employee": {
+      "view": "employee_tier_5",
+      "label": "Employee"
+    },
+    "service": {
+      "view": "service_tier_5",
+      "label": "Service"
+    },
+    "service_code": {
+      "label": "Service Code"
+    },
+    "visit": {
+      "view": "visit_tier_5",
+      "label": "Visit"
+    },
+    "invoice_item": {
+      "view": "invoice_item_tier_5",
+      "label": "Invoice Item"
+    },
+    "note": {
+      "view": "note_tier_5",
+      "label": "Note"
     }
+  }
 }
-
