@@ -48,6 +48,11 @@
       "prod_ready": true,
       "view": "payroll_item",
       "label": "Payroll Item"
+    },
+    "accounting_transaction": {
+      "prod_ready": true,
+      "view": "accounting_transaction",
+      "label": "Accounting Transaction"
     }
   }
 }
