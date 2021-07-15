@@ -49,10 +49,10 @@
       "view": "payroll_item",
       "label": "Payroll Item"
     },
-    "accounting_transaction": {
+    "invoice_payment": {
       "prod_ready": true,
-      "view": "accounting_transaction",
-      "label": "Accounting Transaction"
+      "view": "invoice_payment",
+      "label": "Invoice Payment"
     }
   }
 }
