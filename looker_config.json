@@ -30,6 +30,10 @@
     "note": {
       "view": "note_tier_5",
       "label": "Note"
+    },
+    "geomap": {
+      "view": "geomap",
+      "label": "Geo Map"
     }
   }
 }
