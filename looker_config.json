@@ -1,37 +1,46 @@
 {
   "looker_explores": {
     "client": {
+      "prod_ready": true,
       "view": "client_tier_5",
       "label": "Client"
     },
     "do_not_send": {
+      "prod_ready": true,
       "view": "do_not_send_tier_5",
       "label": "Do Not Send"
     },
     "employee": {
+      "prod_ready": true,
       "view": "employee_tier_5",
       "label": "Employee"
     },
     "service": {
+      "prod_ready": true,
       "view": "service_tier_5",
       "label": "Service"
     },
     "service_code": {
+      "prod_ready": true,
       "label": "Service Code"
     },
     "visit": {
+      "prod_ready": true,
       "view": "visit_tier_5",
       "label": "Visit"
     },
     "invoice_item": {
+      "prod_ready": true,
       "view": "invoice_item_tier_5",
       "label": "Invoice Item"
     },
     "note": {
+      "prod_ready": true,
       "view": "note_tier_5",
       "label": "Note"
     },
     "geomap": {
+      "prod_ready": true,
       "view": "geomap",
       "label": "Geo Map"
     }
