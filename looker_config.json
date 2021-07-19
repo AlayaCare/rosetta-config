@@ -39,6 +39,20 @@
       "view": "note_tier_5",
       "label": "Note"
     },
+    "blah": {
+      "prod_ready": false,
+      "view": "blah",
+      "lable": "Blah"
+    },
+    "blah2":{
+      "prod_ready": null,
+      "view": "blah2",
+      "lable": "Blah 2"
+    },
+    "blah3": {
+      "view": "blah3",
+      "lable": "Blah 3"
+    },
     "geomap": {
       "prod_ready": true,
       "view": "geomap",
