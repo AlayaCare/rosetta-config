@@ -43,6 +43,11 @@
       "prod_ready": true,
       "view": "geomap",
       "label": "Geo Map"
+    },
+    "payroll_item": {
+      "prod_ready": false,
+      "view": "payroll_item",
+      "label": "Payroll Item"
     }
   }
 }
