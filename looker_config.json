@@ -58,6 +58,11 @@
       "prod_ready": false,
       "view": "invoice_payment",
       "label": "Invoice Payment"
+    },
+    "task": {
+      "prod_ready": false,
+      "view": "task",
+      "label": "Task"
     }
   }
 }
