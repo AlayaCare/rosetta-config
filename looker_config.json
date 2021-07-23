@@ -46,7 +46,8 @@
     },
     "payroll_item": {
       "prod_ready": true,
-      "view": "payroll_item"
+      "view": "payroll_item",
+      "label": "Payroll Item"
     }
   }
 }
