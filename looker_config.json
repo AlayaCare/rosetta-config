@@ -50,7 +50,7 @@
       "label": "Payroll Item"
     },
     "invoice_payment": {
-      "prod_ready": true,
+      "prod_ready": false,
       "view": "invoice_payment",
       "label": "Invoice Payment"
     }
