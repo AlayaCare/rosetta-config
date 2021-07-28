@@ -50,7 +50,7 @@
       "label": "Payroll Item"
     },
     "employee_history": {
-      "prod_ready": true,
+      "prod_ready": false,
       "view": "employee_history",
       "label": "Employee Historical"
     }
