@@ -53,6 +53,11 @@
       "prod_ready": false,
       "view": "employee_history",
       "label": "Employee Historical"
+    },
+    "invoice_payment": {
+      "prod_ready": false,
+      "view": "invoice_payment",
+      "label": "Invoice Payment"
     }
   }
 }
