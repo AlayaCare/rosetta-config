@@ -49,6 +49,11 @@
       "view": "payroll_item",
       "label": "Payroll Item"
     },
+    "employee_history": {
+      "prod_ready": false,
+      "view": "employee_history",
+      "label": "Employee Historical"
+    },
     "invoice_payment": {
       "prod_ready": false,
       "view": "invoice_payment",
