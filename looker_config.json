@@ -50,12 +50,12 @@
       "label": "Payroll Item"
     },
     "employee_history": {
-      "prod_ready": false,
+      "prod_ready": true,
       "view": "employee_history",
       "label": "Employee Historical"
     },
     "invoice_payment": {
-      "prod_ready": false,
+      "prod_ready": true,
       "view": "invoice_payment",
       "label": "Invoice Payment"
     },
