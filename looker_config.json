@@ -60,7 +60,7 @@
       "label": "Invoice Payment"
     },
     "task": {
-      "prod_ready": false,
+      "prod_ready": true,
       "view": "task",
       "label": "Task"
     }
