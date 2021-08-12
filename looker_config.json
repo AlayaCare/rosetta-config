@@ -63,6 +63,11 @@
       "prod_ready": true,
       "view": "task",
       "label": "Task"
+    },
+    "offer_response": {
+      "prod_ready": false,
+      "view": "offer_response",
+      "label": "Offer Response"
     }
   }
 }
