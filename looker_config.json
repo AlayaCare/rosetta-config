@@ -41,32 +41,26 @@
     },
     "geomap": {
       "prod_ready": true,
-      "view": "geomap",
       "label": "Geo Map"
     },
     "payroll_item": {
       "prod_ready": true,
-      "view": "payroll_item",
       "label": "Payroll Item"
     },
     "employee_history": {
       "prod_ready": true,
-      "view": "employee_history",
       "label": "Employee Historical"
     },
     "invoice_payment": {
       "prod_ready": true,
-      "view": "invoice_payment",
       "label": "Invoice Payment"
     },
     "task": {
       "prod_ready": true,
-      "view": "task",
       "label": "Task"
     },
     "offer_response": {
-      "prod_ready": false,
-      "view": "offer_response",
+      "prod_ready": true,
       "label": "Offer Response"
     }
   }
