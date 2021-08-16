@@ -62,6 +62,10 @@
     "offer_response": {
       "prod_ready": true,
       "label": "Offer Response"
+    },
+    "apr": {
+      "prod_ready": false,
+      "label": "APR"
     }
   }
 }
