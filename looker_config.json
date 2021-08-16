@@ -64,7 +64,7 @@
       "label": "Offer Response"
     },
     "service_history": {
-      "prod_ready": true,
+      "prod_ready": false,
       "label": "Service Historical"
     }
   }
