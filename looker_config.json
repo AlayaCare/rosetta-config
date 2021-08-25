@@ -63,6 +63,10 @@
       "prod_ready": true,
       "label": "Offer Response"
     },
+    "requisition": {
+      "prod_ready": false,
+      "label": "Requisition"
+    },
     "apr": {
       "prod_ready": false,
       "label": "APR"
