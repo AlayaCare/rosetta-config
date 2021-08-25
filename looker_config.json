@@ -63,6 +63,10 @@
       "prod_ready": true,
       "label": "Offer Response"
     },
+    "apr": {
+      "prod_ready": false,
+      "label": "APR"
+    },
     "service_history": {
       "prod_ready": false,
       "label": "Service Historical"
