@@ -66,6 +66,18 @@
     "requisition": {
       "prod_ready": false,
       "label": "Requisition"
+    },
+    "apr": {
+      "prod_ready": false,
+      "label": "APR"
+    },
+    "service_history": {
+      "prod_ready": false,
+      "label": "Service Historical"
+    },
+    "intake": {
+      "prod_ready": false,
+      "label": "Intake"
     }
   }
 }
