@@ -74,6 +74,10 @@
     "service_history": {
       "prod_ready": true,
       "label": "Service History"
+    },
+    "intake": {
+      "prod_ready": true,
+      "label": "Intake"
     }
   }
 }
