@@ -62,6 +62,18 @@
     "offer_response": {
       "prod_ready": true,
       "label": "Offer Response"
+    },
+    "apr": {
+      "prod_ready": true,
+      "label": "APR"
+    },
+    "requisition": {
+      "prod_ready": true,
+      "label": "Requisition"
+    },
+    "service_history": {
+      "prod_ready": true,
+      "label": "Service History"
     }
   }
 }
