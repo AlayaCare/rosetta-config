@@ -78,6 +78,10 @@
     "intake": {
       "prod_ready": true,
       "label": "Intake"
+    },
+    "budget": {
+      "prod_ready": true,
+      "label": "Budget"
     }
   }
 }
