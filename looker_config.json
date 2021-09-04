@@ -80,7 +80,7 @@
       "label": "Intake"
     },
     "budget": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Budget"
     }
   }
