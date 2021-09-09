@@ -84,7 +84,7 @@
       "label": "Budget"
     },
     "document_approval": {
-      "prod_ready": true,
+      "prod_ready": false,
       "label": "Document Approval"
     }
   }
