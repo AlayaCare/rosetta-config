@@ -89,11 +89,11 @@
     },
     "claims": {
       "prod_ready": false,
-      "label": "Claim"
+      "label": "Claims"
     },
     "claims_historical": {
       "prod_ready": false,
-      "label": "Claim Historical"
+      "label": "Claims Historical"
     }
   }
 }
