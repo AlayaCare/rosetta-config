@@ -86,6 +86,14 @@
     "document_approval": {
       "prod_ready": true,
       "label": "Document Approval"
+    },
+    "claims": {
+      "prod_ready": false,
+      "label": "Claim"
+    },
+    "claims_historical": {
+      "prod_ready": false,
+      "label": "Claim Historical"
     }
   }
 }
