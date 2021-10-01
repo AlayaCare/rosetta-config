@@ -88,11 +88,11 @@
       "label": "Document Approval"
     },
     "claims": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Claims"
     },
     "claims_historical": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Claims Historical"
     }
   }
