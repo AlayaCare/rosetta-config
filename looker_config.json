@@ -94,6 +94,11 @@
     "claims_historical": {
       "prod_ready": true,
       "label": "Claims Historical"
+    },
+    "employee_retention": {
+      "prod_ready": false,
+      "label": "Employee Retention",
+      "release_flag": "LAB-1336-employee-retention-explore"
     }
   }
 }
