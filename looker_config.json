@@ -98,6 +98,7 @@
     "employee_retention": {
       "prod_ready": false,
       "label": "Employee Retention",
+      "view": "employee_retention_calendar",
       "release_flag": "LAB-1336-employee-retention-explore"
     }
   }
