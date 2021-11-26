@@ -17,7 +17,7 @@
     },
     "service": {
       "prod_ready": true,
-      "view": "service_tier_5",
+      "view": "service_tier_5"
       "label": "Service"
     },
     "service_code": {
