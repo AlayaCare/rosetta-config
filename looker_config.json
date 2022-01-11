@@ -96,7 +96,7 @@
       "label": "Claims Historical"
     },
     "employee_retention": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Employee Retention",
       "view": "retention_employee_tier_5",
       "release_flag": "LAB-1336-employee-retention-explore"
