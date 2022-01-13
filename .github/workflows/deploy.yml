@@ -1,0 +1,25 @@
+name: Config deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Lint Code Base
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ca-central-1
+
+      - name: Copy config file
+        run: aws s3 cp ./looker_config.json s3://rosetta-config-bucket-168wbltpf894/ --acl public-read
