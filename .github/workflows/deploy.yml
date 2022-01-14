@@ -22,4 +22,5 @@ jobs:
           aws-region: ca-central-1
 
       - name: Copy config file
-        run: aws s3 cp ./looker_config.json s3://rosetta-config-bucket-168wbltpf894/ --acl public-read
+        run: aws s3 cp ./looker_config.json s3://rosetta-config-bucket-168wbltpf894/ --acl public-read --cache-control max-age=86400
+
