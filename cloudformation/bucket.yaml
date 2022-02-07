@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description:
+  Public bucket for the app to pull config
+
+Resources:
+  Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: 'AES256'
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      VersioningConfiguration:
+        Status: Enabled
+      IntelligentTieringConfigurations:
+        - Id: Tiering
+          Status: Enabled
+          Tierings:
+            - AccessTier: ARCHIVE_ACCESS
+              Days: 90
+            - AccessTier: DEEP_ARCHIVE_ACCESS
+              Days: 365
+
+  GitHubUser:
+    Type: AWS::IAM::User
+    Properties:
+      Policies:
+        - PolicyName: S3
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:GetObjectVersion
+                  - s3:PutObject
+                  - s3:PutObjectAcl
+                Resource: !Sub ${Bucket.Arn}/*
+              - Effect: Allow
+                Action:
+                  - 's3:ListBucket'
+                Resource: !GetAtt Bucket.Arn
+                Condition:
+                  StringLike:
+                    "s3:prefix": "*"
+
+
+  GitHubUserAccessKey:
+    Type: AWS::IAM::AccessKey
+    Properties:
+      UserName: !Ref GitHubUser
+
+Outputs:
+  Version:
+    Value: 1
+  Region:
+    Value: !Ref 'AWS::Region'
+
+  GitHubAccessKey:
+    Value: !Ref GitHubUserAccessKey
+  GitHubSecretAccessKey:
+    Value: !GetAtt GitHubUserAccessKey.SecretAccessKey
+
+  BucketName:
+    Value: !Ref Bucket
