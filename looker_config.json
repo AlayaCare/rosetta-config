@@ -100,6 +100,10 @@
       "label": "Employee Retention",
       "view": "retention_employee_tier_5",
       "release_flag": "LAB-1336-employee-retention-explore"
+    },
+    "payroll_export": {
+      "prod_ready": false,
+      "label": "Payroll Export"
     }
   }
 }
