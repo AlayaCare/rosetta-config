@@ -102,7 +102,7 @@
       "release_flag": "LAB-1336-employee-retention-explore"
     },
     "payroll_export": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Payroll Export"
     }
   }
