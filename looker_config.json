@@ -101,6 +101,10 @@
       "view": "retention_employee_tier_5",
       "release_flag": "LAB-1336-employee-retention-explore"
     },
+    "funding_block": {
+      "prod_ready": false,
+      "label": "Funding Block"
+    },
     "payroll_export": {
       "prod_ready": true,
       "label": "Payroll Export"
