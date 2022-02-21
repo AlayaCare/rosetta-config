@@ -104,6 +104,10 @@
     "funding_block": {
       "prod_ready": false,
       "label": "Funding Block"
+    },
+    "payroll_export": {
+      "prod_ready": true,
+      "label": "Payroll Export"
     }
   }
 }
