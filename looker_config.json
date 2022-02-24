@@ -107,7 +107,8 @@
     },
     "payroll_export": {
       "prod_ready": true,
-      "label": "Payroll Export"
+      "label": "Payroll Export",
+      "release_flag": "snails-BO-10903-payroll-data-s3-bucket-upload"
     }
   }
 }
