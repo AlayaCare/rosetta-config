@@ -102,7 +102,7 @@
       "release_flag": "LAB-1336-employee-retention-explore"
     },
     "funding_block": {
-      "prod_ready": false,
+      "prod_ready": true,
       "label": "Funding Block"
     },
     "payroll_export": {
