@@ -110,10 +110,10 @@
       "label": "Payroll Export",
       "release_flag": "snails-BO-10903-payroll-data-s3-bucket-upload"
     },
-    "authorizations": {
-      "prod_ready": true,
-      "view": "authorizations",
-      "label": "Authorizations"
+    "authorization": {
+      "prod_ready": false,
+      "view": "authorization",
+      "label": "Authorization"
     }
   }
 }
