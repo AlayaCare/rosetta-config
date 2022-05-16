@@ -112,7 +112,6 @@
     },
     "authorization": {
       "prod_ready": true,
-      "view": "authorization",
       "label": "Authorization"
     }
   }
